@@ -1,0 +1,22 @@
+# package files
+node_modules/
+package-lock.json
+yarn.lock
+
+# generated files
+bin/
+config.json
+database.sqlite
+.vs/
+.first_run
+
+# images, rooms, etc. anything relating to the CDN
+cdn/profileImages/*
+!cdn/profileImages/__default.png
+cdn/rooms/*
+!cdn/rooms/.gitkeep
+cdn/images/*
+!cdn/images/.gitkeep
+
+# misc
+builds/*
