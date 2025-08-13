@@ -1,8 +1,7 @@
 # Notice
 
-Work on LunarRec is mostly on a hiatus right now. 
-
-I might fix some smaller bugs, but for the most part I might not do any big updates for a while.
+If you found any isues make issue [here](https://github.com/Davuksl/LunarRecNew/issues)
+If you made any improvements make pull request [here](https://github.com/Davuksl/LunarRecNew/pulls)
 
 ---
 
@@ -78,7 +77,8 @@ This project is also still in early development stages and is **not** production
 
 ## Setup
 
-*soon*
+[Here you go](https://github.com/Davuksl/LunarRecNew/wiki)
+idk why mcoded just could't write this (i wrote everything in 5 minutes bruh)
 
 ## Guidelines
 
