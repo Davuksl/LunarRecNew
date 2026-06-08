@@ -36,6 +36,7 @@ const authenticateToken = async (req, res, next) => {
         /^\/instance\//,
         /^\/api\/versioncheck\//,
         /^\/api\/config\/v\d+$/,
+        /^\/api\/config\/v\d+\/amplitude$/,
         /^\/api\/platformlogin\/v\d+$/,
         /^\/api\/platformlogin\/v\d+\/profiles$/,
         /^\/api\/platformlogin\/v\d+\/getcachedlogins$/,
