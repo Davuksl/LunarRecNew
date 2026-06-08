@@ -42,6 +42,7 @@ const authenticateToken = async (req, res, next) => {
         /^\/\/api\/platformlogin\/v\d+$/, //For some 2017 june builds
         /^\/\/api\/platformlogin\/v\d+\/profiles$/, //For some 2017 june builds
         /^\/api\/players\/v\d+\/getorcreate$/,
+        /^\/api\/PlayerReporting\/v1\/moderationBlockDetails$/,
     ];
     
     for (const endpointRegex of noAuthRequired) {

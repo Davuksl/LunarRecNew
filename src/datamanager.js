@@ -60,13 +60,17 @@ async function getModerationStatus(uid) {
         data: {}
     }
 
+    if (!uid) return status
+
     let userdata = await db.findOne({ where: {id: uid} })
+
+    if (!userdata) return status
 
     userdata.moderation = JSON.parse(userdata.moderation)
 
     console.log(userdata.moderation)
 
-    if (userdata.moderation.banned === true) {
+    if (userdata.moderation && userdata.moderation.banned === true) {
         status.isBanned = true
         status.data = {
             reason: userdata.moderation.reason,
